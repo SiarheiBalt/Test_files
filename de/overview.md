@@ -1,4 +1,6 @@
-<div align="center">   <img src="https://tensorflow.org/images/SIGAddons.png" width="60%"><br><br> </div>
+<div align="center">
+<img src="https://tensorflow.org/images/SIGAddons.png" width="60%"><br><br>
+</div>
 
 ---
 
@@ -8,23 +10,23 @@
 
 ## Installation
 
-#### Stable Builds
+#### Stabile Konstruktionen
 
-To install the latest version, run the following:
+Um die neueste Version zu installieren, führen Sie Folgendes aus:
 
 ```
 pip install tensorflow-addons
 j
 ```
 
-To use addons:
+So verwenden Sie Add-ons:
 
 ```python
 import tensorflow as tf
 import tensorflow_addons as tfa
 ```
 
-#### Nightly Builds
+#### Nächtliche Builds
 
 There are also nightly builds of TensorFlow Addons under the pip package `tfa-nightly`, which is built against the latest stable version of TensorFlow. <br>Nightly builds include newer features, but may be less stable than the versioned releases.
 
@@ -32,9 +34,9 @@ There are also nightly builds of TensorFlow Addons under the pip package `tfa-ni
 pip install tfa-nightly
 ```
 
-#### Installing from Source
+#### Von der Quelle installieren
 
-You can also install from source. This requires the [Bazel](https://bazel.build/) build system.
+Sie können auch von der Quelle installieren. Dies erfordert das [Bazel-](https://bazel.build/) Build-System.
 
 ```
 git clone https://github.com/tensorflow/addons.git
@@ -56,57 +58,57 @@ bazel-bin/build_pip_pkg artifacts
 pip install artifacts/tensorflow_addons-*.whl
 ```
 
-## Core Concepts
+## Kernkonzepte
 
-#### Standardized API within Subpackages
+#### Standardisierte API innerhalb von Unterpaketen
 
-User experience and project maintainability are core concepts in TF-Addons. In order to achieve these we require that our additions conform to established API patterns seen in core TensorFlow.
+Benutzererfahrung und Wartbarkeit des Projekts sind Kernkonzepte in TF-Addons. Um dies zu erreichen, müssen unsere Ergänzungen den etablierten API-Mustern entsprechen, die im TensorFlow-Kern zu sehen sind.
 
-#### GPU/CPU Custom-Ops
+#### Benutzerdefinierte GPU/CPU-Operationen
 
-A major benefit of TensorFlow Addons is that there are precompiled ops. Should a CUDA 10 installation not be found then the op will automatically fall back to a CPU implementation.
+Ein großer Vorteil von TensorFlow-Add-ons besteht darin, dass es vorkompilierte Operationen gibt. Sollte keine CUDA 10-Installation gefunden werden, greift der Vorgang automatisch auf eine CPU-Implementierung zurück.
 
-#### Proxy Maintainership
+#### Proxy-Wartung
 
-Addons has been designed to compartmentalize subpackages and submodules so that they can be maintained by users who have expertise and a vested interest in that component.
+Addons wurden entwickelt, um Unterpakete und Untermodule zu unterteilen, sodass sie von Benutzern verwaltet werden können, die über Fachwissen und ein begründetes Interesse an dieser Komponente verfügen.
 
-Subpackage maintainership will only be granted after substantial contribution has been made in order to limit the number of users with write permission. Contributions can come in the form of issue closings, bug fixes, documentation, new code, or optimizing existing code. Submodule maintainership can be granted with a lower barrier for entry as this will not include write permissions to the repo.
+Die Betreuerschaft für Unterpakete wird nur gewährt, nachdem ein wesentlicher Beitrag geleistet wurde, um die Anzahl der Benutzer mit Schreibberechtigung zu begrenzen. Beiträge können in Form von Problembehebungen, Fehlerbehebungen, Dokumentation, neuem Code oder der Optimierung vorhandenen Codes erfolgen. Die Submodul-Betreuerschaft kann mit einer niedrigeren Eintrittsbarriere gewährt werden, da dies keine Schreibberechtigungen für das Repo beinhaltet.
 
-For more information see [the RFC](https://github.com/tensorflow/community/blob/master/rfcs/20190308-addons-proxy-maintainership.md) on this topic.
+Weitere Informationen finden Sie [im RFC](https://github.com/tensorflow/community/blob/master/rfcs/20190308-addons-proxy-maintainership.md) zu diesem Thema.
 
-#### Periodic Evaluation of Subpackages
+#### Regelmäßige Bewertung von Unterpaketen
 
-Given the nature of this repository, subpackages and submodules may become less and less useful to the community as time goes on. In order to keep the repository sustainable, we'll be performing bi-annual reviews of our code to ensure everything still belongs within the repo. Contributing factors to this review will be:
+Aufgrund der Beschaffenheit dieses Repositorys können Unterpakete und Untermodule im Laufe der Zeit für die Community immer weniger nützlich werden. Um die Nachhaltigkeit des Repositorys zu gewährleisten, führen wir alle zwei Jahre Überprüfungen unseres Codes durch, um sicherzustellen, dass alles noch in das Repository gehört. Zu dieser Überprüfung beitragende Faktoren sind:
 
-1. Number of active maintainers
-2. Amount of OSS use
-3. Amount of issues or bugs attributed to the code
-4. If a better solution is now available
+1. Anzahl der aktiven Betreuer
+2. Umfang der OSS-Nutzung
+3. Anzahl der Probleme oder Fehler, die dem Code zugeschrieben werden
+4. Wenn es jetzt eine bessere Lösung gibt
 
-Functionality within TensorFlow Addons can be categorized into three groups:
+Die Funktionalität innerhalb von TensorFlow Addons kann in drei Gruppen eingeteilt werden:
 
-- **Suggested**: well-maintained API; use is encouraged.
-- **Discouraged**: a better alternative is available; the API is kept for historic reasons; or the API requires maintenance and is the waiting period to be deprecated.
-- **Deprecated**: use at your own risk; subject to be deleted.
+- **Empfohlen** : gut gepflegte API; Die Nutzung ist erwünscht.
+- **Entmutigt** : Es gibt eine bessere Alternative. die API wird aus historischen Gründen beibehalten; oder die API erfordert Wartung und ist die Wartezeit, bis sie veraltet ist.
+- **Veraltet** : Nutzung auf eigene Gefahr; Betreff, der gelöscht werden soll.
 
-The status change between these three groups is: Suggested &lt;-&gt; Discouraged -&gt; Deprecated.
+Die Statusänderung zwischen diesen drei Gruppen ist: Vorgeschlagen &lt;-&gt; Entmutigt -&gt; Veraltet.
 
-The period between an API being marked as deprecated and being deleted will be 90 days. The rationale being:
+Der Zeitraum zwischen der Markierung einer API als veraltet und der Löschung beträgt 90 Tage. Die Begründung lautet:
 
-1. In the event that TensorFlow Addons releases monthly, there will be 2-3 releases before an API is deleted. The release notes could give user enough warning.
+1. Für den Fall, dass TensorFlow Addons monatlich veröffentlicht werden, wird es zwei bis drei Veröffentlichungen geben, bevor eine API gelöscht wird. Die Versionshinweise könnten dem Benutzer ausreichend Warnungen geben.
 
-2. 90 days gives maintainers ample time to fix their code.
+2. 90 Tage geben den Betreuern ausreichend Zeit, ihren Code zu reparieren.
 
-## Contributing
+## Mitwirken
 
-TF-Addons is a community led open source project. As such, the project depends on public contributions, bug-fixes, and documentation. Please see [contribution guidelines](https://github.com/tensorflow/addons/blob/master/CONTRIBUTING.md) for a guide on how to contribute. This project adheres to [TensorFlow's code of conduct](https://github.com/tensorflow/addons/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+TF-Addons ist ein von der Community geführtes Open-Source-Projekt. Daher ist das Projekt auf öffentliche Beiträge, Fehlerbehebungen und Dokumentation angewiesen. Eine [Anleitung zum Spenden finden Sie in den Beitragsrichtlinien](https://github.com/tensorflow/addons/blob/master/CONTRIBUTING.md) . Dieses Projekt hält sich an [den Verhaltenskodex von TensorFlow](https://github.com/tensorflow/addons/blob/master/CODE_OF_CONDUCT.md) . Durch Ihre Teilnahme wird von Ihnen erwartet, dass Sie diesen Kodex einhalten.
 
-## Community
+## Gemeinschaft
 
-- [Public Mailing List](https://groups.google.com/a/tensorflow.org/forum/#!forum/addons)
-- [SIG Monthly Meeting Notes](https://docs.google.com/document/d/1kxg5xIHWLY7EMdOJCdSGgaPu27a9YKpupUz2VTXqTJg)
-    - Join our mailing list and receive calendar invites to the meeting
+- [Öffentliche Mailingliste](https://groups.google.com/a/tensorflow.org/forum/#!forum/addons)
+- [SIG-Monatsbesprechungsnotizen](https://docs.google.com/document/d/1kxg5xIHWLY7EMdOJCdSGgaPu27a9YKpupUz2VTXqTJg)
+    - Treten Sie unserer Mailingliste bei und erhalten Sie Kalendereinladungen zum Meeting
 
-## License
+## Lizenz
 
-[Apache License 2.0](LICENSE)
+[Apache-Lizenz 2.0](LICENSE)
