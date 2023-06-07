@@ -20,4 +20,4 @@
 
    <pre>Some pre on tag</pre>
 
-<pre>Some pre on tag</pre>
+Before <pre>Some pre on tag</pre>
