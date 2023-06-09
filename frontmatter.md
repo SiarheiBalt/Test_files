@@ -1,11 +1,6 @@
-title: "Privacy Sandbox for the web: Expanding testing into 2023"
-description: >
-Testing takes time. We're taking a deliberate approach to testing the Privacy
-Sandbox for the web. The APIs are available for functional testing through
-origin trials sets the stage for expanded testing in 2023—including live
-traffic end-to-end experiments—with a focus on understanding ecosystem
-outcomes and the real-world impact of transitioning away from third-party
-cookies.
-layout: 'layouts/blog-post.njk'
-date: 2022-11-10
-authors:
+---
+$title: Creating the cover page
+$order: 4
+description: "To create a page, add the <amp-story-page> element as a child of amp-story. Assign a unique id to the page. For our first page, which is the cover page, let's assign a unique id of cover: ..."
+author: bpaduch
+---
