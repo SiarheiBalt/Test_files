@@ -1,6 +1,7 @@
 ## Code
 
 ```
+
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -10,3 +11,5 @@
 }
 
 ```
+
+See code <code>qq there, code <b><em>after </em></b> qq </code>after code <b><em>after </em></b>
