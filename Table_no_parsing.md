@@ -2,7 +2,7 @@
 my:
   girls1:
     name: [TensorFlow Hub](https://tfhub.dev/s?deployment-format=lite)
-    profession: <p>See code <code>there, </code>after code <b><em>after </em3></b2></p>
+    profession: See code
   girls2:
     name: Inna
     profession: Ingénieur
