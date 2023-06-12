@@ -1,7 +1,7 @@
 ---
 my:
   girls1:
-    name: [TensorFlow Hub](https://tfhub.dev/s?deployment-format=lite)
+    name: No yaml
     profession: See code
   girls2:
     name: Inna
