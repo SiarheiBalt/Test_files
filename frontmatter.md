@@ -1,8 +1,8 @@
 ---
 my:
   girls1:
-    name: Kate2
-    profession: Interprète
+    name: "Kate2"
+    profession: 'Interprète'
   girls2:
     name: Inna
     profession: Ingénieur
