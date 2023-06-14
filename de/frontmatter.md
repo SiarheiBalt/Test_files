@@ -7,8 +7,8 @@ my:
       rtyrtyrt
   girls2:
     name: Inna
-    profession: Ingénieur
+    profession: Ingenieur
   girls3:
     name: Kate1
-    profession: Médecin
+    profession: Arzt
 ---
