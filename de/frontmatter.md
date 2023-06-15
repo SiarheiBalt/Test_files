@@ -2,11 +2,11 @@
 my:
   girls1:
     name: "'Kate2'"
-    profession: |-
+    profession: |2-
+
       Interprète
-      rtyrtyrt
   girls2:
-    name: Inna
+    name: "Inna \nnew row"
     profession: Ingenieur
   girls3:
     name: Kate1
