@@ -9,4 +9,8 @@ my:
   girls3:
     name: Kate1
     profession: Médecin
+girls:
+  - filles1
+  - filles2
+  - filles3
 ---
