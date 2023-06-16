@@ -1,23 +1,23 @@
 ---
 title: Links
 syntax-id: "Links \nggg"
-syntax-summary: "[link name](https://www.example.com)"
+syntax-summary: "[Linkname](https://www.example.com)"
 description: |-
   Um einen Link zu erstellen, schließen Sie den Linktext in Klammern ein (z. B. „[Duck Duck Go]“) und folgen Sie ihm da
 
   nn direkt in Klammern mit der URL (z. B. „(https://duckduckgo.com)“). Optional können Sie nach der URL in Klammern einen Titel hinzufügen.
 examples:
-  - markdown: "My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy")."
-  html: "My favorite search engine is <a href=\"https://duckduckgo.com\" title=\"The best search engine for privacy\">Duck Duck Go</a>."
+  - markdown: "Meine Lieblingssuchmaschine ist [Duck Duck Go](https://duckduckgo.com „Die beste Suchmaschine für Datenschutz“)."
+  html: "Meine Lieblingssuchmaschine ist <a href=\"https://duckduckgo.com\" title=\"Die beste Suchmaschine für Datenschutz\">Duck Duck Go</a>."
 additional-examples:
   - name: "URLs und \nE-Mail-Adressen"
-  description: To quickly turn a URL or email address into a link, enclose it in angle brackets.
+  description: Um eine URL oder E-Mail-Adresse schnell in einen Link umzuwandeln, schließen Sie sie in spitze Klammern ein.
   markdown: "<https://www.markdownguide.org><fake@example.com>"
   html: "<a href=\\\"https://www.markdownguide.org\\\">https://www.markdownguide.org</a><a href=\\\"&#x6d;&#97;&#105;& #x6c;&#116;&#x6f;&#58;&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#x61;&#x6d ;&#x70;&#108;&#101;&#46;&#99;&#x6f;&#109;\\\">&#x66;&#x61;&#x6b;&#101;&# \n\n\n64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#99;&#x6f;&#109;</a>"
-  - name: Formatting Links
-  description: To emphasize links, add asterisks before and after the brackets and parentheses.
-  markdown: "I love supporting **[EFF](https://eff.org)**. This is the *[Markdown Guide](https://www.markdownguide.org)*."
-  html: "I love supporting <strong><a href=\"https://eff.org\">EFF</a></strong>. This is the <em><a href=\"https://www.markdownguide.org\">Markdown Guide</a></em>."
+  - name: Links formatieren
+  description: Um Links hervorzuheben, fügen Sie vor und nach den Klammern und Klammern Sternchen ein.
+  markdown: "Ich liebe es, **[EFF](https://eff.org)** zu unterstützen. Dies ist der *[Markdown Guide](https://www.markdownguide.org)*."
+  html: "Ich liebe es, <strong><a href=\"https://eff.org\">EFF</a></strong> zu unterstützen. Dies ist der <em><a href=\"https://www.markdownguide.org\">Markdown-Leitfaden</a></em>."
 ---
 
 Um einen Link zu erstellen, schließen Sie den Linktext in Klammern ein (z. B. `[Duck  Duck Go]` ) und folgen Sie ihm dann direkt in Klammern mit der URL (z. B. `(https://duckduc kgo.com)` ).
@@ -26,39 +26,40 @@ Um einen Link zu erstellen, schließen Sie den Linktext in Klammern ein (z. B. `
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 ```
 
-The rendered output looks like this:
+Die gerenderte Ausgabe<br> sieht folgendermaßen aus:
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+Meine Lieblingssuchmaschine ist [Duck Duck Go](https://duckduckgo.com) .
 
-<div class="alert alert-info">   <i class="fas fa-info-circle"></i> <strong>Note:</strong> To link to an element on the same page, see <a href="/extended-syntax/#linking-to-heading-ids">linking to heading IDs</a>. To create a link that opens in a new tab or window, see the section on <a href="/hacks/#link-targets">link targets</a>. </div>
+<div class="alert alert-info">
+<i class="fas fa-info-circle"></i><strong>Hinweis:</strong> Informationen zum Verknüpfen mit einem Element auf derselben Seite finden Sie unter <a href="/extended-syntax/#linking-to-heading-ids">Verknüpfen mit Überschriften-IDs</a> . Informationen zum Erstellen eines Links, der in einem neuen Tab oder Fenster geöffnet wird, finden Sie im Abschnitt zu <a href="/hacks/#link-targets">Linkzielen</a> .</div>
 
-### Adding Titles
+### Titel hinzufügen
 
-You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in quotation marks after the URL.
+Sie können optional einen Titel für einen Link hinzufügen. Dies wird als Tooltip angezeigt, wenn der Benutzer mit der Maus über den Link fährt. Um einen Titel hinzuzufügen, schließen Sie ihn nach der URL in Anführungszeichen ein.
 
 ```
 My favorite search engine is [Duck
 Duck Go](https://duckduckgo.com "The best search engine for privacy").
 ```
 
-The rendered output looks like this:
+Die gerenderte Ausgabe sieht folgendermaßen aus:
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+Meine Lieblingssuchmaschine ist [Duck Duck Go](https://duckduckgo.com "Die beste Suchmaschine für Privatsphäre") .
 
-### URLs and Email Addresses
+### URLs und E-Mail-Adressen
 
-To quickly turn a URL or email address into a link, enclose it in angle brackets.
+Um eine URL oder E-Mail-Adresse schnell in einen Link umzuwandeln, schließen Sie sie in spitze Klammern ein.
 
 ```
 <https://www.markdownguide.org>
 <fake@example.com>
 ```
 
-The rendered output looks like this:
+Die gerenderte Ausgabe sieht folgendermaßen aus:
 
 [https://www.markdownguide.org](https://www.markdownguide.org)<br> [fake@example.com](mailto:fake@example.com)
 
-### Formatting Links
+### Links formatieren
 
 Sie vor und nach den Klammern und Klammern Sternchen ein. Um Links als [Code](#code) zu kennzeichnen, fügen Sie Backticks in die Klammern ein.
 
@@ -68,34 +69,34 @@ This is the *[Markdown Guide](https://www.markdownguide.org)*.
 See the section on [`code`](#code).
 ```
 
-The rendered output looks like this:
+Die gerenderte Ausgabe sieht folgendermaßen aus:
 
 Ich liebe es, die **[EFF](https://eff.org)** zu unterstützen.<br> Dies ist der *[Markdown-Leitfaden](https://www.markdownguide.org)* .<br> Siehe den Abschnitt über [`co  de`](#code) .
 
-### Reference-style Links
+### Links im Referenzstil
 
-Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.
+Links im Referenzstil sind eine besondere Art von Links, die das Anzeigen und Lesen von URLs in Markdown erleichtern. Links im Referenzstil bestehen aus zwei Teilen: dem Teil, den Sie in Ihren Text einfügen, und dem Teil, den Sie an einer anderen Stelle in der Datei speichern, damit der Text leicht lesbar bleibt.
 
-#### Formatting the First Part of the Link
+#### Formatieren des ersten Teils des Links
 
-The first part of a reference-style link is formatted with two sets of brackets. The first set of brackets surrounds the text that should appear linked. The second set of brackets displays a label used to point to the link you're storing elsewhere in your document.
+Der erste Teil eines Links im Referenzstil wird mit zwei Klammersätzen formatiert. Der erste Satz Klammern umgibt den Text, der verknüpft erscheinen soll. Der zweite Klammersatz zeigt eine Beschriftung an, die auf den Link verweist, den Sie an anderer Stelle in Ihrem Dokument speichern.
 
-Although not required, you can include a space between the first and second set of brackets. The label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation.
+Obwohl dies nicht erforderlich ist, können Sie zwischen dem ersten und zweiten Satz Klammern ein Leerzeichen einfügen. Bei der Beschriftung im zweiten Klammersatz wird die Groß-/Kleinschreibung nicht beachtet und sie kann Buchstaben, Zahlen, Leerzeichen oder Satzzeichen enthalten.
 
-This means the following example formats are roughly equivalent for the first part of the link:
+Dies bedeutet, dass die folgenden Beispielformate<br> für den ersten Teil des Links ungefähr gleichwertig sind:
 
 - `[hobbit-hole][1]`
 - `[hobbit-hole] [1]`
 
-#### Formatting the Second Part of the Link
+#### Formatieren des zweiten Teils des Links
 
-The second part of a reference-style link is formatted with the following attributes:
+Der zweite Teil eines Links im Referenzstil ist mit den folgenden Attributen formatiert:
 
-1. The label, in brackets, followed immediately by a colon and at least one space (e.g., `[label]: `).
-2. The URL for the link, which you can optionally enclose in angle brackets.
-3. The optional title for the link, which you can enclose in double quotes, single quotes, or parentheses.
+1. Die Bezeichnung in Klammern, direkt gefolgt von einem Doppelpunkt und mindestens einem Leerzeichen (z. B. `[label]:` ).
+2. Die URL für den Link, die Sie optional in spitze Klammern einschließen können.
+3. Der optionale Titel für den Link, den Sie in doppelte Anführungszeichen, einfache Anführungszeichen oder Klammern setzen können.
 
-This means the following example formats are all roughly equivalent for the second part of the link:
+Dies bedeutet, dass die folgenden Beispielformate für den zweiten Teil des Links alle ungefähr gleichwertig sind:
 
 - `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle`
 - `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"`
@@ -105,11 +106,11 @@ This means the following example formats are all roughly equivalent for the seco
 - `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'`
 - `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)`
 
-You can place this second part of the link anywhere in your Markdown document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document (like endnotes or footnotes).
+Sie können diesen zweiten Teil des Links an einer beliebigen Stelle in Ihrem Markdown-Dokument platzieren. Manche Leute platzieren sie direkt nach dem Absatz, in dem sie erscheinen, während andere sie am Ende des Dokuments platzieren (wie Endnoten oder Fußnoten).
 
-#### An Example Putting the Parts Together
+#### Ein Beispiel für den Zusammenbau der Teile
 
-Say you add a URL as a [standard URL link](#links) to a paragraph and it looks like this in Markdown:
+Angenommen, Sie fügen eine URL als [Standard-URL-Link](#links) zu einem Absatz hinzu und es sieht in Markdown so aus:
 
 ```
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
@@ -117,7 +118,7 @@ of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it t
 eat: it was a [hobbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"), and that means comfort.
 ```
 
-Though it may point to interesting additional information, the URL as displayed really doesn't add much to the existing raw text other than making it harder to read. To fix that, you could format the URL like this instead:
+Obwohl sie möglicherweise auf interessante zusätzliche Informationen hinweist, trägt die angezeigte URL nicht viel zum vorhandenen Rohtext bei, außer dass sie ihn schwerer lesbar macht. Um das zu beheben, können Sie die URL stattdessen wie folgt formatieren:
 
 ```
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
@@ -129,25 +130,25 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
 ```
 
-In both instances above, the rendered output would be identical:
+In beiden oben genannten Fällen wäre die gerenderte Ausgabe identisch:
 
-> In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to  eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>, and that means comfort.
+> In einem Loch im Boden lebte ein Hobbit. Kein hässliches, schmutziges, nasses Loch, gefüllt mit Wurmenden und einem klebrigen Geruch, noch ein trockenes, kahles, sandiges Loch, in dem es nichts gab, worauf man sich setzen oder essen konnte: Es war ein <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Lebensstile der Hobbits">Hobbit-Loch</a> , und das bedeutet Trost.
 
-and the HTML for the link would be:
+und der HTML-Code für den Link wäre:
 
 ```
 <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>
 ```
 
-### Link Best Practices
+### Verknüpfen Sie Best Practices
 
-Markdown applications don't agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with `%20`. Alternatively, if your Markdown application [supports HTML](#html), you could use the `a` HTML tag.
+Markdown-Anwendungen sind sich nicht einig darüber, wie mit Leerzeichen in der Mitte einer URL umgegangen werden soll. Versuchen Sie aus Kompatibilitätsgründen, alle Leerzeichen mit `%20` per URL zu kodieren. Wenn Ihre Markdown-Anwendung [HTML unterstützt](#html) , können Sie alternativ `a` HTML-Tag verwenden.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅  Do this</th>
-      <th>❌  Don't do this</th>
+      <th>✅ Tun Sie dies</th>
+      <th>❌Tu das nicht</th>
     </tr>
   </thead>
   <tbody>
@@ -171,13 +172,13 @@ Markdown applications don't agree on how to handle spaces in the middle of a URL
   </tbody>
 </table>
 
-Parentheses in the middle of a URL can also be problematic. For compatibility, try to URL encode the opening parenthesis (`(`) with `%28` and the closing parenthesis (`)`) with `%29`. Alternatively, if your Markdown application [supports HTML](#html), you could use the `a` HTML tag.
+Auch Klammern in der Mitte einer URL können problematisch sein. Versuchen Sie aus Kompatibilitätsgründen, die öffnende Klammer ( `(` ) mit `%28` und die schließende Klammer ( `)` ) mit `%29` per URL zu kodieren. Wenn Ihre Markdown-Anwendung [HTML unterstützt](#html) , können Sie alternativ `a` HTML-Tag verwenden.
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>✅  Do this</th>
-      <th>❌  Don't do this</th>
+      <th>✅ Tun Sie dies</th>
+      <th>❌Tu das nicht</th>
     </tr>
   </thead>
   <tbody>
@@ -196,3 +197,5 @@ Parentheses in the middle of a URL can also be problematic. For compatibility, t
     </tr>
   </tbody>
 </table>
+
+
