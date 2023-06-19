@@ -3,7 +3,6 @@ Comment
 -->
 
 ---
-
 Man:
     man1:
         name: Victor 
@@ -11,5 +10,4 @@ Man:
     Man2:
         name: Non
         profession: conducteur
-
 ---
