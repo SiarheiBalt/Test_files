@@ -4,7 +4,9 @@ my:
     name: "Kate2"
     profession: 'Interprète'
   girls2:
-    name: Inna
+    name: |- Inna
+        text
+        Inna
     profession: Ingénieur
   girls3:
     name: Kate1
