@@ -79,8 +79,6 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 Here's a sentence with a footnote. [^1]
 
-[^1]: This is the footnote.
-
 ### Heading ID
 
 ### My Great Heading {#custom-id}
