@@ -4,11 +4,11 @@ Vielen Dank für Ihren                                                          
 
 Dieser Markdown-Spickzettel bietet einen schnellen Überblick über alle Markdown-Syntaxelemente <br>Es kann nicht jeden Randfall abdecken. Wenn Sie also weitere Informationen zu einem dieser Elemente benötigen, lesen Sie die Referenzhandbücher zur [Basissyntax](https://www.markdownguide.org/basic-syntax) und [zur erweiterten Syntax](https://www.markdownguide.org/extended-syntax) .
 
-## Basic Syntax
+## Grundlegende Syntax
 
-These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+Dies sind die Elemente, die im ursprünglichen Designdokument von John Gruber beschrieben sind. <br>Alle Markdown-Anwendungen unterstützen diese Elemente.
 
-### Heading
+### Überschrift
 
 # H1
 
@@ -16,58 +16,58 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### H3
 
-### Bold
+### Deutlich
 
-**bold text**
+**fetter Text**
 
-### Italic
+### Kursiv
 
-*italicized text*
+*kursiver Text*
 
 ### Blockquote
 
-> blockquote
+> Blockquote
 
-### Ordered List
+### Bestellliste
 
-1. First item
-2. Second item
-3. Third item
+1. Erster Gegenstand
+2. Zweiter Punkt
+3. Dritter Punkt
 
-### Unordered List
+### Ungeordnete Liste
 
-- First item
+- Erster Gegenstand
 - Zweiter  Punkt
-- Third item
+- Dritter Punkt
 
 ### Code
 
 `code`
 
-### Horizontal Rule
+### Horizontale Regel
 
 ---
 
-### Link
+### Verknüpfung
 
-[Markdown Guide](https://www.markdownguide.org)
+[Markdown-Leitfaden](https://www.markdownguide.org)
 
-### Image
+### Bild
 
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+![Alt-Text](https://www.markdownguide.org/assets/images/tux.png)
 
-## Extended Syntax
+## Erweiterte Syntax
 
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+Diese Elemente erweitern die grundlegende Syntax um zusätzliche Funktionen. Nicht alle Markdown-Anwendungen unterstützen diese Elemente.
 
-### Table
+### Tisch
 
-Syntax | Description
+Syntax | Beschreibung
 --- | ---
-Header | Title
-Paragraph | Text
+Header | Titel
+Absatz | Text
 
-### Fenced Code Block
+### Eingezäunter Codeblock
 
 ```
 {
@@ -79,44 +79,46 @@ Paragraph | Text
 }
 ```
 
-### Footnote
+### Fußnote
 
-Here's a sentence with a footnote. [^1]
+Hier ist ein Satz mit einer Fußnote. [^1]
 
-[^1]: This is the footnote.
+[^1]: Dies ist die Fußnote.
 
-### Heading ID
+### Überschriften-ID
 
-### My Great Heading {#custom-id}
+### Meine tolle Überschrift {#custom-id}
 
-### Definition List
+### Definitionsliste
 
-term : definition
+Begriff: Definition
 
-### Strikethrough
+### Durchgestrichen
 
-~~The world is flat.~~
+~~Die Welt ist flach.~~
 
-### Task List
+### Aufgabenliste
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+- [x] Schreiben Sie die Pressemitteilung
+- [ ] Aktualisieren Sie die Website
+- [ ] Kontaktieren Sie die Medien
 
 ### Emoji
 
-That is so funny! :joy:
+Das ist so lustig! :Freude:
 
-(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
+(Siehe auch [Emoji kopieren und einfügen](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji) )
 
-### Highlight
+### Markieren
 
-I need to highlight these ==very important words==.
+Ich muss diese ==sehr wichtigen Wörter== hervorheben.
 
-### Subscript
+### Index
 
 H~2~O
 
-### Superscript
+### Hochgestellt
 
 X^2^
+
+
