@@ -79,7 +79,7 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 Here's a sentence with a footnote. [^1]
 
-[^1]: This is the footnote.
+[^1]: This is <em>the </em>footnote.
 
 ### Heading ID
 
