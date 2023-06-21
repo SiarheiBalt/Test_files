@@ -1,5 +1,5 @@
 ### Aufgabenliste
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+-  Write the press release
+- [x ] Aktualisieren Sie die Website
+- [y] Kontaktieren Sie die Medien
