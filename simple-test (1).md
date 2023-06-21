@@ -1,5 +1,5 @@
-Here's a sentence a footnote. [^1]. Text **after**
+Here's a sentence a footnote. [^2]. Text after
 
-[^1]: This *is *footnote
+[^2]: This *is *footnote [dfgdfg](google.com)
 
 ## Some header
