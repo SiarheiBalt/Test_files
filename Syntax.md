@@ -1,3 +1,4 @@
-*   There must be ***only two columns*** in the table: the first column for the things being defined (the key), and the second column for all information about that key, in multiple lines if necessary. This two-column restriction means that responsive tables cannot be used for truly two-dimensional tabular data, checkmark-based feature comparison, but they are well suited for reference information (or anything other data that could reasonably be expressed by a definition list instead of a table).
-*   If there are multiple lines of information about the key — say, a type and a description — wrap each line in `<p>` to force line breaks (instead of `<br>`).
-*   There must be only one cell in the header row. Use `<th colspan="2">` to force it to span both columns. To remind you of this behavior, we automatically hides any `<th>` after the first (which intentionally looks very broken).
+<ul>
+  <li>Drums</li>
+  <li>Bass</li>
+</ul>
