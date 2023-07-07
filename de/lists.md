@@ -2,7 +2,7 @@
 
 ### Ungeordnet
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- Lorem _ipsum_ dolor sit amet, consectetur adipiscing elit
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
