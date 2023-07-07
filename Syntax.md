@@ -1,4 +1,4 @@
 <ul>
-  <li>Drums _tag_</li>
+  <li>Drums <em>tag</em></li>
   <li>Bass **bold**</li>
 </ul>
