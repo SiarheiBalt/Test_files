@@ -19,7 +19,7 @@ Hinweis: Optimierte Bilder werden automatisch nur für `index.yaml` Seiten berei
 
 Sie können `class="screenshot"` auf ein Bild anwenden, um ihm einen Rand zu geben, der es vom Text in der Nähe abhebt. Dies wird normalerweise für Screenshots verwendet, die einen weißen Hintergrund haben und sonst auf der Seite verloren gehen. Verwenden Sie es nicht für Bilder, die es nicht benötigen.
 
-### Floating images on the right
+### {image0 src="dfgdgf" alt="alt"}dfgdf
 
 ![Alarmdialog](https://placehold.it/350x150)
 
