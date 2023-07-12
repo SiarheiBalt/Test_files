@@ -35,4 +35,5 @@ Some text `inlineCode`
    ```
    </pre>
 
+Or use the hotkey (<kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>M</kbd> by default).
 
