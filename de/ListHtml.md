@@ -5,7 +5,16 @@
 
 Siehe <b><em>gfhgfh</em></b>
 
-<div>in view</div>
+<b><em>Bbbbbbbbb</em> </b>
 
-<div align="center">   <img src="https://tensorflow.org/images/SIGAddons.png" width="60%"><br><br>
-</div>
+Sehen
+
+<div>Sicht </div>
+
+<div>Sicht </div>
+
+Hier ist ein Satz eine Fußnote. [^2]. Text danach
+
+[^2]: Dies *ist *Fußnote [dfgdfg](google.com)
+
+
