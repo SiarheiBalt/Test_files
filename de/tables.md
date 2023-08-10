@@ -4,7 +4,7 @@ Tabellen werden mit Standard-Markup unterstützt. Hier ist eine typische Tabelle
 
 Eins | Zwei | Drei
 --- | --- | ---
-1,0 | 2.0 | 3,0
+1,0 | 2.0<br>yrty<br>rtyrtygf<br>h{ | 3,0
 1.1 | 2.1 | 3.1
 Hier kommen einige Zahlen, die auf .2 enden! |  |
 1.2 | 2.2 | 3.2
