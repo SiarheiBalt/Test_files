@@ -7,7 +7,7 @@ author: bpaduch
 
 Eine Seite innerhalb einer AMP-Story wird durch die Komponente `<amp-story-page>` dargestellt. Innerhalb einer [`amp-story`](../../../../documentation/components/reference/amp-story.md) können Sie eine oder mehrere `<amp-story-page>` -Komponenten haben, die jeden einzelnen Bildschirm einer Story enthalten. Die erste Seite, die Sie in der Dokumentreihenfolge angeben, ist die erste Seite, die in der Story angezeigt wird.
 
-To create a page, **add** the `<amp-story-page>` element as a child of [`amp-story`](../../../../documentation/components/reference/amp-story.md). **Assign** a unique id to the page. For our first page, which is the cover page, let's assign a unique id of `cover`:
+ `amp-story-pag <em>ext </em>`text
 
 ```html
 <amp-story standalone
