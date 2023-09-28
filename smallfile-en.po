@@ -1,9 +1,0 @@
-
-#: /content/amp-dev/support/faq/overview.md
-msgid "AMP Overview"
-msgstr ""
-
-#: /content/amp-dev/documentation/guides-and-tutorials/learn/email-spec/_blueprint.yaml
-msgid "AMP for Email Specification"
-msgstr ""
-
