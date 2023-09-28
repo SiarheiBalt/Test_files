@@ -1,13 +1,4 @@
-<table>
-  <tbody>
-    <tr>
-      <ul>
-        <li>Erste <b attr="attr">*eee*</b></li>
-        <li>Zweite</li>
-      </ul>
-    </tr>
-  </tbody>
-</table>
+In de instellingen van OBS, onder `General` > `System Tray`, vink alle checkboxes aan. Onder `Output` > `Streaming`, zet een hardware encoder aan als er een beschikbaar is. Onder `Video` > `Base (Canvas) Resolution` en `Output (Scaled) Resolution`, kies `1280x720`, en onder `Downscale Filter`, kies `Bilinear`.
 
 Text
 
