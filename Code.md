@@ -17,8 +17,8 @@ See code <code>qq there, code <b><em>after </em></b> qq </code>after code <b><em
 <div data-md-type=\"block_html\">
   <pre>
     echo sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
-    <code class=\"devsite-terminal\">sudo apt-key add -</code>
-    <code class=\"devsite-terminal\">sudo apt-get update</code>
+    <code>sudo apt-key add -</code>
+    <code>sudo apt-get update</code>
   </pre>
 </div>
 
