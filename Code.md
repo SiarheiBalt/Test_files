@@ -30,6 +30,9 @@ See code <code>qq there, code <b><em>after </em></b> qq </code>after code <b><em
 
 <pre class="prettyprint lang-bsh">
   <code class="devsite-terminal">python3 -m venv "venv"</code>
+</pre>
+
+<pre class="prettyprint lang-bsh">
   <code class="devsite-terminal">source "venv/bin/activate"</code>
 </pre>
 
