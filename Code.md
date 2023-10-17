@@ -26,12 +26,4 @@ See code <code>qq there, code <b><em>after </em></b> qq </code>after code <b><em
   <code class="devsite-terminal">source "venv/bin/activate"</code>
 </pre>
 
-<div data-md-type=\"block_html\">
-  <pre>
-    echo sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
-    <code class=\"devsite-terminal\">sudo apt-key add -</code>
-    <code class=\"devsite-terminal\">sudo apt-get update</code>
-  </pre>
-</div>
-
 Text
