@@ -14,6 +14,6 @@ Other text
 > > Second level citation
 > > > Third level of citation
 
-<h1> Install the Python development _install_ environment </h1>
+<span> Install the Python development <b>_install_</b> environment </span>
 
 Before <h1> Install the Python development _install_ environment </h1>
