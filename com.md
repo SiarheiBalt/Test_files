@@ -9,4 +9,4 @@ components
 
 <sub>Text on sub tag</sub>
 
-<sup>Text on sub tag</sup>
+<sup>Text on sup tag</sup>
