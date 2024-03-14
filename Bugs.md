@@ -1,4 +1,5 @@
-Text _Before_ <h4> Install the Python development _install_ environment </h4>
+Text _Before_ <h4> Install the Python development 
+_install_ environment </h4>
 
 <h4> Install the Python development _install_ environment </h4>
 
