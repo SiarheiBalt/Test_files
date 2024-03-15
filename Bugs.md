@@ -39,3 +39,20 @@ Before <p1> Install the Python development _install_ environment </p1>
         </tr>
       </tbody>
 </table>
+
+<pre>
+    <code type="application/json">
+        
+            "requests": {
+            "visibility": "https://example.com/nestedAmpAnalytics"
+            },
+            "triggers": {
+            "visibilitySpec": {
+                "selector": "amp-ad",
+                "visiblePercentageMin": 50,
+                "continuousTimeMin": 1000
+                }
+            }
+      
+    </code>
+</pre>
