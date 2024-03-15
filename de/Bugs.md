@@ -6,7 +6,8 @@ Vor<p1> Installieren Sie die Python- <em data-md-type="emphasis">Entwicklungsins
 
 <ul>
   <li>First _value_</li>
-  <li>Second      <em>value</em>   </li>
+  <li>Second      <em>value</em>
+</li>
 </ul>
 
 <table class="responsive">
@@ -18,13 +19,13 @@ Vor<p1> Installieren Sie die Python- <em data-md-type="emphasis">Entwicklungsins
           <td>
             <code>value</code>
           </td>
-          <td>             <code>**String**</code><br>             the choice's value, _which_ respondents see as a label when viewing the form           </td>
+          <td>             <code>**String**</code><br>             the choice's value, _which_ respondents see as a label when viewing the form</td>
         </tr>
         <tr>
           <td>
             <code>navigationType</code>
           </td>
-          <td>             <code>               &lt;a href="#"&gt;PageNavigationType&lt;/a&gt;             </code>             <br>the choice's navigation type           </td>
+          <td>             <code>                &lt;a href="#"&gt;PageNavigationType&lt;/a&gt;              </code>             <br>the choice's navigation type</td>
         </tr>
       </tbody>
 </table>
