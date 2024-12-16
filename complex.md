@@ -177,7 +177,10 @@ The following are _allowed_ AMP extension modules and AMP built-in tags in an
 AMPHTML ad creative. Extensions or builtin tags not explicitly listed are prohibited.
 
 -   [amp-accordion](https://amp.dev/documentation/components/amp-accordion)
--   [amp-ad-exit](https://amp.dev/documentation/components/amp-ad-exit)
+-   [amp-ad-exit](https://amp.dev/documentation/components/amp-ad-exit)\
+   \
+   \
+   \
 -   [amp-analytics](https://amp.dev/documentation/components/amp-analytics)
 -   [amp-anim](https://amp.dev/documentation/components/amp-anim)
 -   [amp-animation](https://amp.dev/documentation/components/amp-animation)
