@@ -180,7 +180,7 @@ AMPHTML ad creative. Extensions or builtin tags not explicitly listed are prohib
 -   [amp-ad-exit](https://amp.dev/documentation/components/amp-ad-exit)\
    \
    \
-   \
+   
 -   [amp-analytics](https://amp.dev/documentation/components/amp-analytics)
 -   [amp-anim](https://amp.dev/documentation/components/amp-anim)
 -   [amp-animation](https://amp.dev/documentation/components/amp-animation)
